@@ -1,0 +1,107 @@
+.app {
+  font-family: "Raleway", sans-serif;
+  background-color: darken(#fff, 1%);
+
+  .header {
+    display: flex;
+    align-items: center;
+    background-color: #422ed4;
+    height: 60px;
+
+    .headerContent {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      width: 1440px;
+      color: #fff;
+      font-weight: 800;
+      font-size: 16px;
+
+      img {
+        width: 43px;
+        height: 43px;
+        align-self: center;
+        border-radius: 7px;
+        margin-left: 160px;
+      }
+
+      p {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .main {
+    width: 1440px;
+    height: 860px;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+
+    h1 {
+      font-size: 50px;
+      margin-bottom: 60px;
+    }
+
+    .categories {
+      width: 1140px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 165px;
+
+      button {
+        background-color: #fff;
+        box-shadow: 0px 22px 80px rgba(72, 70, 106, 0.07);
+        color: #1c1c39;
+        border: none;
+        width: 170px;
+        height: 57px;
+        border-radius: 20px;
+        margin: 10px;
+        font-size: 16px;
+        font-weight: 800;
+      }
+
+      button:hover {
+        border: 3px solid #422ed4;
+        cursor: pointer;
+      }
+
+      button:active {
+        background-color: #422ed4;
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+
+    .quote {
+      .quoteContent {
+        position: relative;
+        z-index: 2;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #422ed4;
+        border-radius: 25px;
+        width: 1120px;
+        height: 162px;
+
+        p {
+          margin: 0;
+          padding: 24px;
+          color: #fff;
+          text-align: left;
+          font-size: 20px;
+          font-weight: 600;
+        }
+      }
+
+      img {
+        position: absolute;
+        z-index: 1;
+        left: 1170px;
+        top: 482px;
+      }
+    }
+  }
+}
